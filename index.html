@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!-- Google Font -->
+
+
+    <title>FlexBox Experimental</title>
+
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+
+        .navbar {
+            border: 3px solid purple; 
+            /* background-color: green; */
+            display: flex;
+        }
+
+        .navbar ul {
+            display: flex;
+            width: 20%;
+            justify-content: space-between;
+
+          
+        
+        }
+
+        .navbar ul li {
+            list-style-type: none;
+            padding: 10px;
+
+            display: flex;
+            align-items: center;
+
+            border: 2px solid black;
+
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: black;
+          
+            
+        }
+        .navbar ul li a:hover {
+            text-decoration: none;
+            color: rgb(0, 128, 122);
+            
+        }
+
+        .navbar ul li a img{
+            height: 80px;
+            width: 60px;
+
+            display: flex;
+
+            align-items: center;
+        }
+
+        #logo{
+            height: 80px;
+            width: 60px;
+
+            display: flex;
+
+            align-items: center;
+        }
+#search{
+    height: 24px;
+    width: 24px;
+
+    position: relative;
+    ;
+
+}
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li id="logo"><a href="#"><img src="images/image-from-rawpixel-id-2381488-png.png" alt=""> </a></li>
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li> 
+
+                <li>
+                    <a href="#"><img id="search" src="images/search-solid.svg" alt=""></li></a>
+            </ul>
+        </nav>
+
+    </header>
+</body>
+
+</html>
