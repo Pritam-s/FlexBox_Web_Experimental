@@ -1,6 +1,6 @@
 @media screen and (max-width:640px) {
     .navbar {
-        border: 3px solid purple; 
+        /* border: 3px solid purple;  */
         /* background-color: green; */
         display: flex;
     }
@@ -16,4 +16,6 @@
         padding: 0%;
 
     }
-}
+
+    /* End of Phones.css */
+} 
