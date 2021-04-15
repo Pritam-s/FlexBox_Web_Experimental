@@ -2,7 +2,10 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
 
-    box-sizing: border-b56;
+    box-sizing: border-box;
+
+    margin: 0px;
+    padding: 0px;
 }
 
 .navbar {
