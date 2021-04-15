@@ -1,230 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="CSS/styles.css" />
+
+    
 
     <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
     <!-- Google Font -->
-
 
     <title>FlexBox Experimental</title>
+  </head>
 
-    <style>
-        body {
-            font-family: 'Lato', sans-serif;
-            font-weight: bold;
-        }
-
-        .navbar {
-            /* border: 3px solid rgb(255, 196, 255);  */
-            /* background-color: rgb(206, 255, 206); */
-            display: flex;
-        }
-
-        .navbar ul {
-            display: flex;
-            width: 20%;
-            justify-content: space-between;
-
-        }
-
-        .navbar ul li {
-            list-style-type: none;
-            padding: 10px;
-
-            display: flex;
-            align-items: center;
-
-            /* border: 2px solid black; */
-
-        }
-
-        .navbar ul li a {
-            text-decoration: none;
-            color: black;
-
-
-        }
-
-        .navbar ul li a:hover {
-            text-decoration: none;
-            color: rgb(0, 128, 122);
-
-        }
-
-        .navbar ul li a img {
-            height: 80px;
-            width: 60px;
-
-            display: flex;
-
-            align-items: center;
-        }
-
-        #logo {
-            height: 80px;
-            width: 60px;
-
-            display: flex;
-
-            align-items: center;
-        }
-
-        #search {
-            border: 2px solid black;
-            border-radius: 5px;
-        }
-
-        section {
-            border: 2px solid rgb(196, 227, 255);
-            padding: 10px;
-            background-color: #e0e0d9;
-            
-        }
-
-        section header {
-            border: 2px solid rgb(255, 196, 255);
-            display: grid;
-
-            grid-template-columns: 10fr 10fr;
-            
-        }
-
-        section header img {
-            border: 2px solid rgb(255, 196, 255);
-        }
-
-        section header h1 {
-            border: 2px solid rgb(255, 196, 255);
-            margin: 42px;
-            text-align: left;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            /* align-items: center; */
-
-        }
-
-        #heroimg {
-            height: 70vh;
-            width: 40vw;
-            object-fit: contain;
-            object-position: right;
-        }
-
-        section header button {
-
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-            border: 2px solid rgb(255, 196, 255);
-
-            padding: 10px;
-            margin-top: 20px;
-        }
-
-
-
-        /* Phone.css (max-width: 640px) */
-        @media screen and (max-width:640px) {
-
-            header {
-                display: flex;
-                flex-wrap: wrap;
-
-                justify-content: center;
-                align-content: center;
-
-                height: 100%;
-                width: 100%;
-            }
-
-            .navbar {
-                border: 3px solid purple;
-                /* background-color: green; */
-                display: flex;
-
-            }
-
-            .navbar ul {
-                border: 2px solid rgb(0, 128, 122);
-                display: flex;
-                flex-direction: column;
-
-                width: 100%;
-                height: 100%;
-                justify-content: center;
-                align-items: center;
-
-                padding: 0%;
-
-            }
-
-            .navbar ul li {
-                border: 2px solid rgb(0, 128, 122);
-            }
-
-            section header {
-                border: 2px solid rgb(255, 196, 255);
-                display: flex;
-
-                flex-direction: row;
-            }
-
-
-
-            /* End of Phones.css */
-
-        }
-    </style>
-</head>
-
-<body>
+  <body>
     <header>
-        <nav class="navbar">
-            <ul>
-                <li id="logo"><a href="#"><img src="images/image-from-rawpixel-id-2381488-png.png" alt=""> </a></li>
+      <nav class="navbar">
+        <ul>
+          <li id="logo">
+            <a href="#"
+              ><img
+                src="images/image-from-rawpixel-id-2381488-png.png"
+                alt=""
+              />
+            </a>
+          </li>
 
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
 
-                <li>
-                    <input type="text" name="search" id="search" placeholder="Search">
-                </li>
-            </ul>
-        </nav>
+          <li>
+            <input type="text" name="search" id="search" placeholder="Search" />
+          </li>
+        </ul>
+      </nav>
     </header>
 
-    <section>
-        <header>
-            <h1>
-                Amazing Variety of Plants starting just Rs.10
+    <section id="herosect">
+      <header>
+        <div></div>
 
-                <div>
-                    <button id="herobtn">Know more</button>
-                </div>
+        <div id="herodiv">
+          <h1>
+            Amazing Variety of Plants starting just Rs.10
 
-            </h1>
+            <div>
+              <button id="herobtn">Know more</button>
+            </div>
+          </h1>
+        </div>
 
-            <img id="heroimg" src="Images/image-from-rawpixel-id-1224506-png.png" alt="plant image">
+        <img
+          id="heroimg"
+          src="Images/image-from-rawpixel-id-1224506-png.png"
+          alt="plant image"
+        />
+
+        <div></div>
+      </header>
+    </section>
 
 
-        </header>
 
+    <section id="secticons">
+
+        <div></div>
+
+        <div><img src="/FlexBox_Web_Experimental/Images/seedling-solid.svg" alt="" srcset="">
+            <h3>
+                Plants Collection
+            </h3>
+        </div>
+
+        <div>
+            <img src="/FlexBox_Web_Experimental/Images/dolly-flatbed-solid.svg" alt="" srcset="">
+            <h3>Free Shipping</h3>
+        </div>
+
+        <div>
+            <img src="/FlexBox_Web_Experimental/Images/credit-card-regular.svg" alt="">
+            <h3>Easy Payments</h3>
+        </div>
+
+        <div></div>
 
     </section>
-</body>
 
+
+  </body>
 </html>
