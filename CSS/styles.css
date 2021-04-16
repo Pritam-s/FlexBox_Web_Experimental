@@ -68,12 +68,13 @@ body {
     border-radius: 5px;
 }
 
+/* Hero Section */
+
 #herosect {
     /* border: 2px solid rgb(196, 227, 255); */
     padding: 10px;
     background-color: #f1f1f1;
-    border-radius: 0rem 5rem;
-    
+    border-radius: 0rem 5rem;    
 }
 
 #herosect header {
@@ -138,9 +139,10 @@ body {
 
 
 #secticons{
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
-    grid-template-columns: 5fr 10fr 10fr 10fr 0fr;
     /* border: 2px solid rgb(255, 156, 255); */
     margin-top: 2rem;
 }
@@ -214,6 +216,42 @@ body {
     padding: 0px 10px;
     text-align: center;
     background-color: #fff;
+}
+
+
+/* Main Div */
+
+.maindiv{
+    border: 3px solid purple;
+
+    display: grid;
+    padding: 3rem 9rem;
+    grid-template-columns: 10fr 10fr 10fr;
+    grid-gap: 3rem;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.card{
+    border: 3px solid rgb(236, 236, 236);
+    border-radius: 1rem;
+    background-color: rgb(236, 236, 236);
+}
+
+.card img{
+    object-fit: contain;
+    background-color: rgb(236, 236, 236);
+
+    height: 20vh;
+    width: 13vw;
+}
+
+.cardcontainer{
+    border: 2px solid rgb(236, 236, 236);
+    background-color:rgb(236, 236, 236);
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
 
