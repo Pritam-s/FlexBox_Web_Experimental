@@ -222,7 +222,7 @@ body {
 /* Main Div */
 
 .maindiv{
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
 
     display: grid;
     padding: 3rem 9rem;
@@ -254,6 +254,26 @@ body {
     padding: 1rem;
 }
 
+
+
+
+/* article */
+.article1{
+    /* border: 3px solid green; */
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+
+    padding: 2rem;
+    justify-items: center;
+    background-color: rgb(236, 236, 236);
+}
+
+.articleaside{
+    /* border: 3px solid red; */
+    padding: 0rem 3rem;
+
+    font-weight: 400;
+}
 
 
 
