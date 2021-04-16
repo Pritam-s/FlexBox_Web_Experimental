@@ -69,14 +69,15 @@ body {
 }
 
 #herosect {
-    border: 2px solid rgb(196, 227, 255);
+    /* border: 2px solid rgb(196, 227, 255); */
     padding: 10px;
-    background-color: #e0e0d9;
+    background-color: #f1f1f1;
+    border-radius: 0rem 5rem;
     
 }
 
 #herosect header {
-    border: 2px solid rgb(255, 156, 255);
+    /* border: 2px solid rgb(255, 156, 255); */
     display: grid;
 
     grid-template-columns: 3fr 10fr 10fr 3fr;
@@ -89,7 +90,7 @@ body {
 }
 
 #herodiv{
-    border: 2px solid rgb(255, 156, 255);
+    /* border: 2px solid rgb(255, 156, 255); */
     
     display: flex;
     flex-direction: column;
@@ -99,14 +100,14 @@ body {
 }
 
 #herosect header img {
-    border: 2px solid rgb(255, 156, 255);
+    /* border: 2px solid rgb(255, 156, 255); */
 }
 
 #herosect header h1 {
-    border: 2px solid rgb(255, 156, 255);
+    /* border: 2px solid rgb(255, 156, 255); */
+    font-size: 3rem;
     margin: 42px;
     text-align: left;
-    text-justify: distribute;
 
     display: flex;
     flex-direction: column;
@@ -129,7 +130,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    border: 2px solid rgb(255, 156, 255);
+    /* border: 2px solid rgb(255, 156, 255); */
 
     padding: 10px;
     margin-top: 20px;
@@ -139,15 +140,15 @@ body {
 #secticons{
     display: grid;
     
-    grid-template-columns: 5.5fr 10fr 10fr 10fr 5.5fr;
-    border: 2px solid rgb(255, 156, 255);
+    grid-template-columns: 5fr 10fr 10fr 10fr 0fr;
+    /* border: 2px solid rgb(255, 156, 255); */
     margin-top: 2rem;
 }
 
 
 
 #secticons div{
-    border: 2px solid palegreen;
+    /* border: 2px solid palegreen; */
     display: flex;
     align-items:center ;
     padding: 0rem 1rem;
@@ -164,6 +165,60 @@ body {
 
     color: palegreen;
 }
+
+
+/* Section Card */
+
+#sectioncard{
+    /* border:2px solid rgb(255, 156, 255); */
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+}
+
+.boxcard{
+    border: 3px solid rgb(236, 236, 236);
+
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.boxcard p{
+    /* border: 3px solid rgb(230, 176, 179); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(236, 236, 236);
+    border-radius: 1rem;
+}
+
+.boxcard p img{
+    /* border: 3px solid rgb(230, 176, 179); */
+    height: 40vh;
+    width:10vw;
+
+    background-color: rgb(236, 236, 236);
+
+    object-fit: contain ;
+}
+
+.boxcard p:nth-child(2){
+    /* border: 5px solid black; */
+    width: 20vw;
+    padding: 0px 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+
+
 
 
 
