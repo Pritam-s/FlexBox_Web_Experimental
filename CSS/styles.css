@@ -1,330 +1,352 @@
 body {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
 
-    box-sizing: border-box;
+  box-sizing: border-box;
 
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-hr{
-    border: 1px solid rgb(243, 243, 243);
-    margin: 2rem;
+hr {
+  border: 1px solid rgb(243, 243, 243);
+  margin: 2rem;
 }
 
 .navbar {
-    /* border: 3px solid rgb(255, 196, 255);  */
-    /* background-color: rgb(206, 255, 206); */
-    display: flex;
+  /* border: 3px solid rgb(255, 196, 255);  */
+  /* background-color: rgb(206, 255, 206); */
+  display: flex;
 }
 
 .navbar ul {
-    display: flex;
-    width: 20%;
-    justify-content: space-between;
-
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
 }
 
 .navbar ul li {
-    list-style-type: none;
-    padding: 10px;
+  list-style-type: none;
+  padding: 10px;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    /* border: 2px solid black; */
-
+  /* border: 2px solid black; */
 }
 
 .navbar ul li a {
-    text-decoration: none;
-    color: black;
-
-
+  text-decoration: none;
+  color: black;
 }
 
 .navbar ul li a:hover {
-    text-decoration: none;
-    color: rgb(0, 128, 122);
-
+  text-decoration: none;
+  color: rgb(0, 128, 122);
 }
 
 .navbar ul li a img {
-    height: 80px;
-    width: 60px;
+  height: 80px;
+  width: 60px;
 
-    display: flex;
+  display: flex;
 
-    align-items: center;
+  align-items: center;
 }
 
 #logo {
-    height: 80px;
-    width: 60px;
+  height: 80px;
+  width: 60px;
 
-    display: flex;
+  display: flex;
 
-    align-items: center;
+  align-items: center;
 }
 
 #search {
-    border: 2px solid black;
-    border-radius: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 /* Hero Section */
 
 #herosect {
-    /* border: 2px solid rgb(196, 227, 255); */
-    padding: 10px;
-    background-color: #f1f1f1;
-    border-radius: 0rem 5rem;    
+  /* border: 2px solid rgb(196, 227, 255); */
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 0rem 5rem;
+  margin: 5rem 0rem;
 }
 
 #herosect header {
-    /* border: 2px solid rgb(255, 156, 255); */
-    display: grid;
+  /* border: 2px solid rgb(255, 156, 255); */
+  display: grid;
 
-    grid-template-columns: 3fr 10fr 10fr 3fr;
-    
+  grid-template-columns: 3fr 10fr 10fr 3fr;
 }
 
-#herosect:nth-child(3){
-    grid-column-start: 3;
-    grid-column-end: 4;
+#herosect:nth-child(3) {
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
-#herodiv{
-    /* border: 2px solid rgb(255, 156, 255); */
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
-    
+#herodiv {
+  /* border: 2px solid rgb(255, 156, 255); */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 #herosect header img {
-    /* border: 2px solid rgb(255, 156, 255); */
+  /* border: 2px solid rgb(255, 156, 255); */
 }
 
 #herosect header h1 {
-    /* border: 2px solid rgb(255, 156, 255); */
-    font-size: 3rem;
-    margin: 42px;
-    text-align: left;
+  /* border: 2px solid rgb(255, 156, 255); */
+  font-size: 3rem;
+  margin: 42px;
+  text-align: left;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 20rem;
 }
 
 #heroimg {
-    height: 70vh;
-    width: 40vw;
-    object-fit: contain;
-    object-position: center;
+  height: 70vh;
+  width: 40vw;
+  object-fit: contain;
+  object-position: center;
 }
 
 #herosect header button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  /* border: 2px solid rgb(255, 156, 255); */
 
-    /* border: 2px solid rgb(255, 156, 255); */
-
-    padding: 10px;
-    margin-top: 20px;
+  padding: 10px;
+  margin-top: 20px;
 }
 
+#secticons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
-#secticons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-    /* border: 2px solid rgb(255, 156, 255); */
-    margin-top: 2rem;
+  /* border: 2px solid rgb(255, 156, 255); */
+  margin:10rem 2rem;
 }
 
-
-
-#secticons div{
-    /* border: 2px solid palegreen; */
-    display: flex;
-    align-items:center ;
-    padding: 0rem 1rem;
+#secticons div {
+  /* border: 2px solid palegreen; */
+  display: flex;
+  align-items: center;
+  padding: 0rem 1rem;
 }
 
-#secticons div h3{
-    font-weight: 300;
-    font-size: 1rem ;
+#secticons div h3 {
+  font-weight: 300;
+  font-size: 1rem;
 }
 
-#secticons div img{
-    height: 2rem;
-    width: 4rem;
+#secticons div img {
+  height: 2rem;
+  width: 4rem;
 
-    color: palegreen;
+  color: palegreen;
 }
-
 
 /* Section Card */
 
-#sectioncard{
-    /* border:2px solid rgb(255, 156, 255); */
-    margin-top: 2rem;
+#sectioncard {
+  /* border:2px solid rgb(255, 156, 255); */
+  margin:10rem 2rem;
 
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
-.boxcard{
-    border: 3px solid rgb(236, 236, 236);
+.boxcard {
+  border: 3px solid rgb(236, 236, 236);
 
-    border-radius: 1rem;
+  border-radius: 1rem;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-.boxcard p{
-    /* border: 3px solid rgb(230, 176, 179); */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.boxcard p {
+  /* border: 3px solid rgb(230, 176, 179); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    background-color: rgb(236, 236, 236);
-    border-radius: 1rem;
+  background-color: rgb(236, 236, 236);
+  border-radius: 1rem;
 }
 
-.boxcard p img{
-    /* border: 3px solid rgb(230, 176, 179); */
-    height: 40vh;
-    width:10vw;
+.boxcard p img {
+  /* border: 3px solid rgb(230, 176, 179); */
+  height: 40vh;
+  width: 10vw;
 
-    background-color: rgb(236, 236, 236);
+  background-color: rgb(236, 236, 236);
 
-    object-fit: contain ;
+  object-fit: contain;
 }
 
-.boxcard p:nth-child(2){
-    /* border: 5px solid black; */
-    width: 20vw;
-    padding: 0px 10px;
-    text-align: center;
-    background-color: #fff;
-    font-weight: 400;
+.boxcard p:nth-child(2) {
+  /* border: 5px solid black; */
+  width: 20vw;
+  padding: 0px 10px;
+  text-align: center;
+  background-color: #fff;
+  font-weight: 400;
 }
-
 
 /* Main Div */
 
-.maindivcontainer{
-
-    background-color: rgb(250,250,250);
-    /* border: 2px solid black; */
-    margin: 5rem 8rem;
+.maindivcontainer {
+  background-color: rgb(250, 250, 250);
+  /* border: 2px solid black; */
+  margin: 10rem 8rem;
 }
-.maindivcontainer h2{
-    text-align: center;
-    margin: 0rem;
-    padding: 3rem 0rem 0rem 0rem;
+.maindivcontainer h2 {
+  text-align: center;
+  margin: 0rem;
+  padding: 3rem 0rem 0rem 0rem;
 
-    font-weight: 400;
+  font-weight: 400;
 }
-.maindivcontainer p{
-    text-align: center;
-    font-weight: normal;
-}
-
-.maindiv{
-    /* border: 3px solid purple; */
-
-    display: grid;
-    padding: 3rem 9rem;
-    grid-template-columns: 10fr 10fr 10fr;
-    grid-gap: 3rem;
-    justify-content: center;
-    justify-items: center;
-    background-color:rgb(250, 250, 250);
-   
-    margin:  auto;
-    width: 56vw;
+.maindivcontainer p {
+  text-align: center;
+  font-weight: normal;
 }
 
+.maindiv {
+  /* border: 3px solid purple; */
 
-.card{
-    /* border: 3px solid rgb(236, 236, 236); */
-    border-radius: 1rem;
-    background-color: rgb(236, 236, 236);
+  display: grid;
+  padding: 3rem 9rem;
+  grid-template-columns: 10fr 10fr 10fr;
+  grid-gap: 3rem;
+  justify-content: center;
+  justify-items: center;
+  background-color: rgb(250, 250, 250);
+
+  margin: auto;
+  width: 56vw;
 }
 
-.card img{
-    border: 0.2 px solid gray;
-    border-radius: 2rem;
-    
-    object-fit: contain;
-    background-color: rgb(236, 236, 236);
-
-    height: 20vh;
-    width: 13vw;
+.card {
+  /* border: 3px solid rgb(236, 236, 236); */
+  border-radius: 1rem;
+  background-color: rgb(236, 236, 236);
 }
 
-.cardcontainer{
-    border: 2px solid rgb(236, 236, 236);
-    background-color:rgb(250, 250, 250);
-    border-radius: 1rem;
-    padding: 1rem;
+.card img {
+  border: 0.2 px solid gray;
+  border-radius: 2rem;
 
-    font-weight: normal;
-}
-.cardcontainer h4{
-   font-weight: normal;
-}
-.cardcontainer aside{
-   font-weight: normal;
-   margin-bottom: 1rem;
+  object-fit: contain;
+  background-color: rgb(236, 236, 236);
+
+  height: 20vh;
+  width: 13vw;
 }
 
+.cardcontainer {
+  border: 2px solid rgb(236, 236, 236);
+  background-color: rgb(250, 250, 250);
+  border-radius: 1rem;
+  padding: 1rem;
 
-
-
-
-
+  font-weight: normal;
+}
+.cardcontainer h4 {
+  font-weight: normal;
+}
+.cardcontainer aside {
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
 
 /* article */
-.article1{
-    /* border: 3px solid green; */
-    display: grid;
-    grid-template-columns: 3fr 7fr;
+.article1 {
+  /* border: 3px solid green; */
+  display: grid;
+  grid-template-columns: 3fr 7fr;
 
-    padding: 2rem;
-    justify-items: center;
-    /* background-color: rgb(236, 236, 236); */
-    margin: 0rem 2rem;
+  padding: 2rem;
+  justify-items: center;
+  /* background-color: rgb(236, 236, 236); */
+  margin: 10rem 2rem;
 }
 
-.articleaside{
-    /* border: 3px solid red; */
-    padding: 0rem 3rem;
+.articleaside {
+  /* border: 3px solid red; */
+  padding: 0rem 3rem;
 
-    font-weight: 400;
+  font-weight: 400;
 }
-.articleaside h4{
-    /* border: 3px solid red; */
-    font-weight: 400;
-    font-size: larger;
-    margin: 1rem;
+.articleaside h4 {
+  /* border: 3px solid red; */
+  font-weight: 400;
+  font-size: larger;
+  margin: 1rem;
+}
 
+/* Footer Section */
+
+footer{
+    background-color: rgb(236, 236, 236);
 }
+
+.footercontainer {
+  /* border: 3px solid black; */
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 8fr 1fr 8fr;
+
+  margin: 10rem 0rem 0rem 0rem;
+}
+
+.footeraside {
+  font-weight: normal;
+
+  margin: 6rem;
+}
+
+.footericons {
+  /* border: 2px solid red; */
+  height: 40vh;
+
+  margin: 6rem;
+}
+
+.footericons p img{
+   height: 2rem;
+}
+
+.footerlinks{
+    margin: 6rem;
+}
+
+
+
+
+
+
+
 
 
 
@@ -344,54 +366,47 @@ hr{
 
 
 /* Phone.css (max-width: 640px) */
-@media screen and (max-width:640px) {
+@media screen and (max-width: 640px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
 
-    header {
-        display: flex;
-        flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 
-        justify-content: center;
-        align-content: center;
+    height: 100%;
+    width: 100%;
+  }
 
-        height: 100%;
-        width: 100%;
-    }
+  .navbar {
+    border: 3px solid purple;
+    /* background-color: green; */
+    display: flex;
+  }
 
-    .navbar {
-        border: 3px solid purple;
-        /* background-color: green; */
-        display: flex;
+  .navbar ul {
+    border: 2px solid rgb(0, 128, 122);
+    display: flex;
+    flex-direction: column;
 
-    }
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 
-    .navbar ul {
-        border: 2px solid rgb(0, 128, 122);
-        display: flex;
-        flex-direction: column;
+    padding: 0%;
+  }
 
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-        align-items: center;
+  .navbar ul li {
+    border: 2px solid rgb(0, 128, 122);
+  }
 
-        padding: 0%;
+  #herosect header {
+    border: 2px solid rgb(255, 156, 255);
+    display: flex;
 
-    }
+    flex-direction: row;
+  }
 
-    .navbar ul li {
-        border: 2px solid rgb(0, 128, 122);
-    }
-
-    #herosect header {
-        border: 2px solid rgb(255, 156, 255);
-        display: flex;
-
-        flex-direction: row;
-    }
-    
-
-
-
-    /* End of Phones.css */
-
+  /* End of Phones.css */
 }
