@@ -13,9 +13,6 @@ hr {
   margin: 2rem;
 }
 
-header{
-
-}
 
 .navbar {
   /* border: 3px solid rgb(255, 196, 255);  */
@@ -56,6 +53,8 @@ header{
   display: flex;
 
   align-items: center;
+
+  margin-left: 2rem;
 }
 
 #logo {
@@ -82,7 +81,7 @@ header{
   /* margin: 5rem 0rem; */
 }
 
-#herosect header {
+#herosect section {
   /* border: 2px solid rgb(255, 156, 255); */
   display: grid;
 
@@ -103,11 +102,11 @@ header{
   /* align-items: center; */
 }
 
-#herosect header img {
+#herosect section img {
   /* border: 2px solid rgb(255, 156, 255); */
 }
 
-#herosect header h1 {
+#herosect section h1 {
   /* border: 2px solid rgb(255, 156, 255); */
   font-size: 3rem;
   margin: 42px;
@@ -219,19 +218,19 @@ header{
 
 /* Main Div */
 
-.maindivcontainer {
+#maindivcontainer {
   background-color: rgb(250, 250, 250);
   /* border: 2px solid black; */
   margin: 10rem 8rem;
 }
-.maindivcontainer h2 {
+#maindivcontainer h2 {
   text-align: center;
   margin: 0rem;
   padding: 3rem 0rem 0rem 0rem;
 
   font-weight: 400;
 }
-.maindivcontainer p {
+#maindivcontainer p {
   text-align: center;
   font-weight: normal;
 }
@@ -315,7 +314,7 @@ footer{
     background-color: rgb(236, 236, 236);
 }
 
-.footercontainer {
+#footercontainer {
   /* border: 3px solid black; */
   height: 60vh;
   display: grid;
@@ -371,7 +370,7 @@ footer{
 
 /* Phone.css (max-width: 640px) */
 @media screen and (max-width: 640px) {
-  header {
+  header{
     display: flex;
     flex-wrap: wrap;
 
@@ -380,7 +379,7 @@ footer{
 
     height: 100%;
     width: 100%;
-  }
+  } 
 
   .navbar {
     border: 3px solid purple;
@@ -401,16 +400,38 @@ footer{
     padding: 0%;
   }
 
-  .navbar ul li {
+  .navbar ul li a img {
+    height: 80px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 0%; 
+  }
+
+  .navbar ul li{
     border: 2px solid rgb(0, 128, 122);
   }
 
-  #herosect header {
-    border: 2px solid rgb(255, 156, 255);
+
+
+  #logo {
+    height: 0px;
+    width: 0px;
     display: flex;
-
-    flex-direction: row;
-  }
-
-  /* End of Phones.css */
+    align-items: center;
 }
+
+
+
+
+/* Hero Section */
+#herosect section{
+    display: grid;
+    grid-template-rows: 3fr 10fr 10fr 3fr; 
+    grid-template-columns: none;
+
+}
+
+}
+
+/* End of Phones.css */
